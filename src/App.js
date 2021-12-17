@@ -19,7 +19,7 @@ function App() {
         <div className="container">
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/movie/:imbdID" component={MovieDetail} />
+            <Route path="/movie/:imdbID" component={MovieDetail} />
             <Route component={NotFound} />
           </Switch>
         </div>
